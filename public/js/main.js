@@ -35,7 +35,7 @@ const sectionObserver = new IntersectionObserver((entries) => {
       navLinks.forEach(link => {
         link.style.color = '';
         if (link.getAttribute('href') === '#' + entry.target.id) {
-          link.style.color = '#e8ff00';
+          link.style.color = '#c4956a';
         }
       });
     }
