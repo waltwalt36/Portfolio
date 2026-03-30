@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap');
 
 :root {
-  --bg: #faf6f1;
-  --bg2: #f3ede4;
+  --bg: #f0f4f8;
+  --bg2: #e4eaf1;
   --card: #ffffff;
-  --brown: #3d2b1f;
-  --brown-mid: #6b4c3b;
-  --tan: #c4956a;
-  --tan-light: #e8d5c0;
-  --green: #4a6741;
-  --green-light: #d4e0d0;
-  --cream: #fdf8f2;
-  --muted: #9c8070;
-  --border: #e2d5c8;
+  --brown: #1e2d3d;
+  --brown-mid: #3a5068;
+  --tan: #4a7fa5;
+  --tan-light: #c3d9eb;
+  --green: #3a6b8a;
+  --green-light: #d0e4f0;
+  --cream: #f5f9fc;
+  --muted: #6b8599;
+  --border: #c9d9e8;
   --white: #ffffff;
 }
 
@@ -39,7 +39,7 @@ header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 500;
   display: flex; justify-content: space-between; align-items: center;
   padding: 1.2rem 3rem;
-  background: rgba(250,246,241,0.92);
+  background: rgba(240,244,248,0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
